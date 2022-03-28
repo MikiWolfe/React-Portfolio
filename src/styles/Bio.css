@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-direction: nowrap;
+  }
+  
+  .bio {
+    margin: 4%;
+    text-align: justify;
+    font-size: large;
+  }
+  
+  .bio-container p:first-child::first-letter{
+    color:rgb(2, 2, 85);
+    font-weight: bold;
+    font-size: 70px;
+    float: left;
+    line-height: 60px;
+    padding-right: 8px;
+    margin-top: -3px;
+  }

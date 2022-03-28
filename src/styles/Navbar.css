@@ -1,0 +1,27 @@
+.bar {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5%;
+  background-image: linear-gradient(to bottom right, rgb(2, 2, 85), lightblue);
+  color: rgb(231, 225, 225);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+.link {
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(231, 225, 225);
+  background-color: transparent;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+}
