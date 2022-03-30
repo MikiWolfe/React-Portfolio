@@ -1,13 +1,14 @@
 import React from "react";
-import "../styles/Header.css";
+import "../styles/style.css";
+import profilePicture from '../images/profile2.jpg'
 
 export default function Header() {
   return (
     <div id="h1" className="gradient">
-    <img className="profile" src="./images/profile2.jpg" alt="Profile picture of my face" />
-    <h1 className="example">Mikayla Bruce, LVT</h1>
+    <img className="profile" src={profilePicture} alt="Profile picture of my face" />
+    <h1 className="header-text">Mikayla Bruce, LVT</h1>
   
-    <h3 className="example">Full Stack Web Developer</h3>
+    <h3 className="header-text">Full Stack Web Developer</h3>
     
   </div>
   );
