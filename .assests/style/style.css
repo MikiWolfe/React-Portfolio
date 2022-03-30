@@ -81,7 +81,7 @@ a {
   margin-top: -3px;
 }
 
-section {
+.work-section {
   display: flex;
   flex-direction: row;
   padding: 3%;
