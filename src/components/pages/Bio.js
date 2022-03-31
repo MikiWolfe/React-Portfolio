@@ -4,6 +4,7 @@ import '../../styles/style.css'
 export default function Bio () {
     return (
     <div id="About">
+      <h2 className="example">About Me</h2>
     <div className="bio-container">
       <p className="bio">
         My name is Mikayla and I am very happy to meet you! I hail from

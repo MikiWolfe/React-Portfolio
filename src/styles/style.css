@@ -16,7 +16,7 @@
   display: flex;
   flex-wrap: wrap;
   padding: 1.5rem;
-  border-bottom: solid lightgrey 3px;
+  border-top: solid lightgrey 3px;
 }
 
 a {
@@ -67,7 +67,7 @@ a {
 }
 
 .bio {
-  margin: 4%;
+  margin: 2%;
   text-align: justify;
   font-size: large;
 }

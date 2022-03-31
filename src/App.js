@@ -7,8 +7,7 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <div>
-      <Navbar />
-      <Header />
+      <Header/>
       <PortfolioBody />
       <Footer />
     </div>
