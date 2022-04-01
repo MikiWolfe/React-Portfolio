@@ -7,9 +7,7 @@ export default function Header() {
     <div id="h1" className="gradient">
     <img className="profile" src={profilePicture} alt="Profile picture of my face" />
     <h1 className="header-text">Mikayla Bruce, LVT</h1>
-  
     <h3 className="header-text">Full Stack Web Developer</h3>
-    
   </div>
   );
 }

@@ -1,33 +1,73 @@
-import React from "react";
+import React, { useState } from "react";
+import { RiTwitterFill, RiStarFill, RiInstagramLine, RiGithubFill, RiLinkedinBoxFill ,RiMailSendFill } from "react-icons/ri";
+
 import "../../styles/style.css";
 
-export default function Contact() {
+const FORM_ENDPOINT = "";
+
+const Contact = () => {
+  const [submitted, setSubmitted] = useState(false);
+  const handleSubmit = () => {
+    setTimeout(() => {
+      setSubmitted(true);
+    }, 100);
+  };
+
+  if (submitted) {
+    return (
+      <>
+        <div className="thank-you"> <RiStarFill/>  Thank you!</div>
+      </>
+    );
+  }
   return (
     <form
-      id="contact-form"
-      onSubmit={this.handleSubmit.bind(this)}
+      action={FORM_ENDPOINT}
+      onSubmit={handleSubmit}
       method="POST"
+      target="_blank"
+     
     >
-      <h1 className="example">Contact Me:</h1>
+      <h1 className=""> Want to get in touch? Send me message:</h1>
 
-      <div className="form-group">
-        <label htmlFor="name">Name</label>
-        <input type="text" className="form-control" />
+<div  className="contact-form"> 
+      <div className="input">
+        <input
+          type="text"
+          placeholder="Your name"
+          name="name"
+          className=""
+          required
+        />
       </div>
 
-      <div className="form-group">
-        <label htmlFor="exampleInputEmail1">Email address</label>
-        <input type="email" className="form-control" />
+      <div className="input">
+        <input
+          type="email"
+          placeholder="Email"
+          name="email"
+          className=""
+          required
+        />
+      </div>
+      <div>
+        <textarea 
+        placeholder="Message"
+        name ="message"
+        className=""
+        required
+        />
       </div>
 
-      <div className="form-group">
-        <label htmlFor="message">Message</label>
-        <textarea className="form-control"></textarea>
-      </div>
-      <button type="submit">Send</button>
+      <button className= "subbtn" type="submit"> <RiMailSendFill/> Send</button>
+      
+</div>
     </form>
-      );
-    }
 
 
 
+  );
+};
+
+
+export default Contact

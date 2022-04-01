@@ -1,5 +1,6 @@
 import React from "react";
 import '../../styles/style.css';
+import { IoLogoGithub } from "react-icons/io";
 
 export default function Work() {
   return (
@@ -19,7 +20,8 @@ export default function Work() {
             />
             <div className="container">
               <h2>
-                <a
+            
+                <a 
                   className="link"
                   href="https://github.com/jmichaelbrown8/elevator-pitch"
                   target="_blank"
@@ -176,7 +178,7 @@ export default function Work() {
               alt="Team Profile Generator"
             />
             <div className="container">
-              <h2>
+              <h2 >   <IoLogoGithub />
                 <a
                   className="link"
                   href="https://github.com/MikiWolfe/Employee-Database"
