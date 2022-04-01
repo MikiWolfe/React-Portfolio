@@ -8,11 +8,11 @@ export default function Bio () {
     <div className="bio-container">
       <p className="bio">
         My name is Mikayla and I am very happy to meet you! I hail from
-        Seattle, WA. I know several web languages, HTML, CSS, JavaScript, Node and Express. 
-        Database languages: MySQL, Sequelize MongoDB, and React.
-        Other specialites: Handlebars, GitHub, Insomnia, and Heroku. 
+        Seattle, WA. I know several web languages, HTML, CSS, JavaScript, Node, Express, React. 
+        Database languages: MySQL, Sequelize, MongoDB, and graphQL.
+        Other specialties: Handlebars, GitHub, Insomnia, and Heroku. 
         I have explored using python and 
-        love learning new things and new languages. I am always looking for new coding podcast reccomendatation. </p>
+        love learning new things and new languages. I am always looking for new coding podcast recommendation. </p>
     </div>
     <div className="bio-container">
         <p className="bio">

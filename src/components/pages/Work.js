@@ -4,9 +4,9 @@ import '../../styles/style.css';
 export default function Work() {
   return (
     <div>
-      <h2 id="Work" className="example">
-        Links to examples of my work:
-      </h2>
+      <h1 id="Work" className="example">
+       Examples of my work:
+      </h1>
 
       <div className="work-section">
         {/* <!-- Elevator Pitch --> */}

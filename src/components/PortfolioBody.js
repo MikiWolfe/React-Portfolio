@@ -1,11 +1,9 @@
-import React, { useState } from "react";
-import Navbar from "./Navbar";
+import React from "react";
 import Bio from "./pages/Bio";
 import Work from "./pages/Work";
+import Contact from "./pages/Contact";
 
-export default function PortfolioBody() {
-  const [currentPage, setCurrentPage] = useState("Bio");
-
+export default function PortfolioBody({ currentPage }) {
   const renderPage = () => {
     if (currentPage === "Bio") {
       return <Bio />;
@@ -13,13 +11,10 @@ export default function PortfolioBody() {
     if (currentPage === "Work") {
       return <Work />;
     }
+    if (currentPage === "Contact") {
+      return <Contact />;
+    }
   };
 
-  const handlePageChange = (page) => setCurrentPage(page)
-  return (
-      <div> 
-        <Navbar currentPage={currentPage} handlePageChange= {handlePageChange} />
-        {renderPage()}
-      </div>
-  )
+  return <div>{renderPage()}</div>;
 }

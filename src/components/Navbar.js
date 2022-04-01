@@ -1,24 +1,28 @@
 import React from "react";
 import "../styles/style.css";
 
-export default function Navbar({className, handlePageChange}) {
+export default function Navbar({ currentPage, handlePageChange }) {
   return (
     <nav className="bar">
       <a
-        className="link"
         href="#About"
         onClick={() => handlePageChange("Bio")}
-        // className={currentPage === "Bio"}
+        className={[currentPage === "Bio" ? "active" : "", "link"].join(" ")}
       >
         About Me
       </a>
-      <a className="link" href="#Work"
-      onClick={() => handlePageChange("Work")}
-      // className = {currentPage === "Work"}
+      <a
+        href="#Work"
+        onClick={() => handlePageChange("Work")}
+        className={[currentPage, "link"].join(" ")}
       >
         Work
       </a>
-      <a className="link" href="#Contact">
+      <a href="#Contact"
+      onClick={() => handlePageChange("Contact")}
+      className={[currentPage, "link"].join(" ")}
+      
+      >
         Contact Me
       </a>
       <a className="link" href="#" target="_blank">
