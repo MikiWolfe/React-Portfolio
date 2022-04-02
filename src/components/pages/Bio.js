@@ -12,7 +12,8 @@ export default function Bio () {
         Database languages: MySQL, Sequelize, MongoDB, and graphQL.
         Other specialties: Handlebars, GitHub, Insomnia, and Heroku. 
         I have explored using python and 
-        love learning new things and new languages. I am always looking for new coding podcast recommendation. </p>
+        love learning new things and new languages. I am always looking for new coding podcast recommendation. 
+        Dream job: working at Twitter to give the people what they want which is an edit button.</p>
     </div>
     <div className="bio-container">
         <p className="bio">
