@@ -1,73 +1,37 @@
-import React, { useState } from "react";
-import { RiTwitterFill, RiStarFill, RiInstagramLine, RiGithubFill, RiLinkedinBoxFill ,RiMailSendFill } from "react-icons/ri";
-
+import React from "react";
+import ContactForm from "./ContactForm";
+import {
+  RiTwitterFill,
+  RiInstagramLine,
+  RiGithubFill,
+  RiLinkedinBoxFill,
+} from "react-icons/ri";
 import "../../styles/style.css";
-
-const FORM_ENDPOINT = "";
-
-const Contact = () => {
-  const [submitted, setSubmitted] = useState(false);
-  const handleSubmit = () => {
-    setTimeout(() => {
-      setSubmitted(true);
-    }, 100);
-  };
-
-  if (submitted) {
-    return (
-      <>
-        <div className="thank-you"> <RiStarFill/>  Thank you!</div>
-      </>
-    );
-  }
+export default function Contact() {
   return (
-    <form
-      action={FORM_ENDPOINT}
-      onSubmit={handleSubmit}
-      method="POST"
-      target="_blank"
-     
-    >
-      <h1 className=""> Want to get in touch? Send me message:</h1>
+    <div>
+      <ContactForm />
+      <div className="contactFooter">
+        <h3 className="contactHeader"> You can also find me on:</h3>
+        <h1 className="contactIcon">
+          <a className="" href="https://twitter.com/MikiiWolf" target="_blank">
+            {<RiTwitterFill />}
+          </a>
+          <a href="https://github.com/MikiWolfe" target="_blank">
+            {<RiGithubFill />}
+          </a>
 
-<div  className="contact-form"> 
-      <div className="input">
-        <input
-          type="text"
-          placeholder="Your name"
-          name="name"
-          className=""
-          required
-        />
+          <a
+            href="https://www.linkedin.com/in/mikayla-bruce-b50676221/"
+            target="_blank"
+          >
+            {<RiLinkedinBoxFill />}
+          </a>
+          <a href="https://www.instagram.com/mikiwolfe/?hl=en" target="_blank">
+            {<RiInstagramLine />}
+          </a>
+        </h1>
       </div>
-
-      <div className="input">
-        <input
-          type="email"
-          placeholder="Email"
-          name="email"
-          className=""
-          required
-        />
-      </div>
-      <div>
-        <textarea 
-        placeholder="Message"
-        name ="message"
-        className=""
-        required
-        />
-      </div>
-
-      <button className= "subbtn" type="submit"> <RiMailSendFill/> Send</button>
-      
-</div>
-    </form>
-
-
-
+    </div>
   );
-};
-
-
-export default Contact
+}

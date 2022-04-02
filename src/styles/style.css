@@ -57,7 +57,7 @@ a {
 }
 
 .header-text {
-  color: lightgray
+  color: lightgray;
 }
 
 .row {
@@ -73,8 +73,8 @@ a {
   font-size: large;
 }
 
-.bio-container p:first-child::first-letter{
-  color:rgb(2, 2, 85);
+.bio-container p:first-child::first-letter {
+  color: rgb(2, 2, 85);
   font-weight: bold;
   font-size: 70px;
   float: left;
@@ -82,7 +82,7 @@ a {
   padding-right: 8px;
   margin-top: -3px;
 }
-.workImage{
+.workImage {
   opacity: 25%;
 }
 .work-section {
@@ -103,9 +103,8 @@ a {
 .card-pad {
   padding-bottom: 2%;
 }
- 
+
 .icon {
-  
 }
 
 .card-challenge {
@@ -196,9 +195,9 @@ a {
 }
 
 form {
-padding-left:5% ;  
-background-image: linear-gradient(70deg, rgb(1, 2, 21), rgb(96, 158, 195));
-color: lightgray;
+  padding-left: 5%;
+  background-image: linear-gradient(70deg, rgb(1, 2, 21), rgb(96, 158, 195));
+  color: lightgray;
 }
 .input {
   padding: 0.5%;
@@ -206,15 +205,29 @@ color: lightgray;
 }
 
 textarea {
-width: 500px;
-height: 300px;
-padding-left: 0.5%;
+  width: 500px;
+  height: 300px;
+  padding-left: 0.5%;
 }
 
 .subbtn {
-background-image: linear-gradient(70deg, rgb(1, 2, 21), rgb(96, 158, 195));
-font-size: 24px;
-color: white;
+  background-image: linear-gradient(70deg, rgb(1, 2, 21), rgb(96, 158, 195));
+  font-size: 24px;
+  color: white;
+}
+.contactFooter {
+  color: rgb(1, 2, 21);
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 0.5%;
+}
+.contactHeader {
+  padding-bottom: 0.3%;
+}
+.contactIcon {
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 300px) {
