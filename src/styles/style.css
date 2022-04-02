@@ -82,7 +82,9 @@ a {
   padding-right: 8px;
   margin-top: -3px;
 }
-
+.workImage{
+  opacity: 25%;
+}
 .work-section {
   display: flex;
   flex-direction: row;
@@ -100,6 +102,10 @@ a {
 }
 .card-pad {
   padding-bottom: 2%;
+}
+ 
+.icon {
+  
 }
 
 .card-challenge {
