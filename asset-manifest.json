@@ -1,14 +1,23 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.ff9723e8.css",
-    "main.js": "/React-Portfolio/static/js/main.aa6f36a5.js",
+    "main.css": "/React-Portfolio/static/css/main.c09370e4.css",
+    "main.js": "/React-Portfolio/static/js/main.09d3a1a5.js",
+    "static/media/30-days.png": "/React-Portfolio/static/media/30-days.4793fd615df6f3475899.png",
+    "static/media/gasworks.jpg": "/React-Portfolio/static/media/gasworks.32e0953eaf1f204dc970.jpg",
+    "static/media/team-gen.png": "/React-Portfolio/static/media/team-gen.8d41efa01118c4dac664.png",
+    "static/media/elevator-pitch.png": "/React-Portfolio/static/media/elevator-pitch.cef21067c95202ae79cf.png",
+    "static/media/java.jpeg": "/React-Portfolio/static/media/java.29f5685c3e85d749faa8.jpeg",
+    "static/media/weather.jpeg": "/React-Portfolio/static/media/weather.630a7fb013e152bef733.jpeg",
+    "static/media/manage.png": "/React-Portfolio/static/media/manage.f1c34c4bb44330974907.png",
+    "static/media/workday.jpeg": "/React-Portfolio/static/media/workday.563ac5978feadfe1b25e.jpeg",
     "static/media/profile2.jpg": "/React-Portfolio/static/media/profile2.898c8a3e241f260a4eb7.jpg",
+    "static/media/note-taker.png": "/React-Portfolio/static/media/note-taker.990ce3044ad49a2e49a8.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.ff9723e8.css.map": "/React-Portfolio/static/css/main.ff9723e8.css.map",
-    "main.aa6f36a5.js.map": "/React-Portfolio/static/js/main.aa6f36a5.js.map"
+    "main.c09370e4.css.map": "/React-Portfolio/static/css/main.c09370e4.css.map",
+    "main.09d3a1a5.js.map": "/React-Portfolio/static/js/main.09d3a1a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff9723e8.css",
-    "static/js/main.aa6f36a5.js"
+    "static/css/main.c09370e4.css",
+    "static/js/main.09d3a1a5.js"
   ]
 }
