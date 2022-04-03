@@ -275,7 +275,7 @@ textarea {
   color: rgb(1, 2, 21);
   font-size: 48px;
 }
-.contactIco:hover {
+.contactIcon:hover {
   color:rgb(96, 158, 195);
   transform: scale(2.5)
 }
