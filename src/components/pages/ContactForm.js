@@ -21,7 +21,7 @@ const ContactForm = () => {
     );
   }
   return (
-    <form
+    <form className="contact-form"
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method="POST"
@@ -30,7 +30,8 @@ const ContactForm = () => {
     >
       <h2 className=""> Want to get in touch? Send me message:</h2>
 
-<div  className="contact-form"> 
+<div > 
+<div> </div>
       <div className="input">
       <label for="fname"> Name: </label>
         <input
