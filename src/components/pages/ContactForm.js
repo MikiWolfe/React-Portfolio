@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {  RiStarFill, RiMailSendFill } from "react-icons/ri";
+import { RiStarFill,  RiMailSendFill } from "react-icons/ri";
 
 import "../../styles/style.css";
 
@@ -16,62 +16,55 @@ const ContactForm = () => {
   if (submitted) {
     return (
       <>
-        <div className="thank-you"> <RiStarFill/>  Thank you!</div>
+        <div className="thank-you">
+          {" "}
+          <RiStarFill /> Thank you!
+        </div>
       </>
     );
   }
   return (
-    <form className="contact-form"
+    <form
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method="POST"
       target="_blank"
-     
     >
-      <h2 className=""> Want to get in touch? Send me message:</h2>
+      <h2 className="contactHeader"> Want to get in touch? Send me message:</h2>
 
-<div > 
-<div> </div>
-      <div className="input">
-      <label for="fname"> Name: </label>
-        <input
-          type="text"
-          placeholder="Your name"
-          name="name"
-          className=""
-          required
-        />
-      </div>
-
-      <div className="input">
-      <label for="email"> Email: </label>
-        <input
-          type="email"
-          placeholder="Email"
-          name="email"
-          className=""
-          required
-        />
-      </div>
-      <label for="message"> Your Message: </label>
       <div>
-        <textarea 
-        placeholder="Message"
-        name ="message"
-        className=""
-        required
-        />
+        <div className="textbox">
+          <textarea placeholder="Your message" name="message" required />
+        </div>
+
+        <div>
+          <label for="fname"> Name: </label>
+          <input
+            className="input"
+            type="text"
+            placeholder="Your name"
+            name="name"
+            required
+          />
+        </div>
+
+        <div className="textbox">
+          <label for="email"> Email: </label>
+          <input
+            type="email"
+            placeholder="Your email"
+            name="email"
+            className="input"
+            required
+          />
+        </div>
+        <label for="button"> Full send: </label>
+        <button className="subbtn" type="submit">
+           <RiMailSendFill />{" "}
+        </button>
       </div>
-
-      <button className= "subbtn" type="submit"> <RiMailSendFill/> Send</button>
-      
-</div>
     </form>
-
-
-
   );
 };
 
-
-export default ContactForm
+export default ContactForm;

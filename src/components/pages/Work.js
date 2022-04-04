@@ -12,7 +12,7 @@ import { IoLogoGithub } from "react-icons/io";
 
 export default function Work() {
   return (
-    <div className="contact-form">
+    <div className="backImage">
       <h1 id="Work" className="example">
         Examples of my work:
       </h1>

@@ -9,7 +9,7 @@ import {
 import "../../styles/style.css";
 export default function Contact() {
   return (
-    <div className="contact-form">
+    <div className="backImage">
 
       <ContactForm />
       <div className="contactFooter">
