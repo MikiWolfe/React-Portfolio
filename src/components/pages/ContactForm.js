@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { RiStarFill,  RiMailSendFill } from "react-icons/ri";
-
+import { RiStarFill,  } from "react-icons/ri";
+import { CgArrowRightR } from "react-icons/cg";
 import "../../styles/style.css";
 
 const FORM_ENDPOINT = "";
@@ -60,7 +60,7 @@ const ContactForm = () => {
         </div>
         <label for="button"> Full send: </label>
         <button className="subbtn" type="submit">
-           <RiMailSendFill />{" "}
+           <CgArrowRightR />{" "}
         </button>
       </div>
     </form>

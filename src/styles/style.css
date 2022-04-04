@@ -133,15 +133,18 @@ a {
   text-decoration: none;
   color: whitesmoke;
   font-size: 36px;
+  padding: 0.1rem;
 }
 
 .icon:hover {
-  padding: 0.1rem;
   background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
   color: rgb(2, 2, 85);
   border-right: rgb(2, 2, 85) solid 3px ;
   border-left: rgb(2, 2, 85) solid 3px ;
   box-shadow: 0 5px 15px lightcyan;
+  /* background: linear-gradient(45deg, red, yellow, blue, indigo); */
+  color: white;
+  border-radius: 50%;
 }
 .workLink {
   text-decoration: none;
@@ -295,6 +298,18 @@ textarea {
   cursor: pointer;
 }
 
+.subbtn:hover {
+  padding-top: 1%;
+  position: relative;
+  background: pink;
+  font-size: 24px;
+  padding: 0.5%;
+  color: black;
+  border: rgb(95, 31, 31) solid 2px ;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 .contactFooter {
   position: relative;
   color: rgb(1, 2, 21);
@@ -314,14 +329,15 @@ textarea {
   word-spacing: 18px;
   color: rgb(1, 2, 21);
   font-size: 48px;
+  align-items: center;
 }
 
 .contactIcon:hover {  
   padding: 0.3rem;
   text-align: center;
-  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+  background: linear-gradient(45deg, red, yellow, blue, indigo);
 color: white;
-  transform: scale(2.5);
+border-radius: 50%;
   border-left: solid rgb(96, 158, 195) 2px;
    border-right: solid rgb(96, 158, 195) 2px;
 
