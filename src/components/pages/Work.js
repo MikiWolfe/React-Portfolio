@@ -37,7 +37,7 @@ export default function Work() {
               </a>
 
               <a
-                className="link"
+                className="workLink"
                 href="https://elevator-pitch-space.herokuapp.com/space/3b6d19cd-bd00-45af-8588-d7e4dc3325da"
                 target="_blank"
               >
@@ -61,7 +61,7 @@ export default function Work() {
               </a>
 
               <a
-                className="link"
+                className="workLink"
                 href="https://mikiwolfe.github.io/30-day-Challenge/"
                 target="_blank"
               >
@@ -84,7 +84,7 @@ export default function Work() {
                 {<IoLogoGithub />}
               </a>
               <a
-                className="link"
+                className="workLink"
                 href="https://mikiwolfe.github.io/The-Weather/"
                 target="_blank"
               >
@@ -107,7 +107,7 @@ export default function Work() {
                 {<IoLogoGithub />}
               </a>
               <a
-                className="link"
+                className="workLink"
                 href="https://mikiwolfe.github.io/Game-Show/"
                 target="_blank"
               >
@@ -131,7 +131,7 @@ export default function Work() {
               </a>
 
               <a
-                className="link"
+                className="workLink"
                 href="https://mikiwolfe.github.io/Calendar/"
                 target="_blank"
               >
@@ -154,7 +154,7 @@ export default function Work() {
                 {<IoLogoGithub />}
               </a>
               <a
-                className="link"
+                className="workLink"
                 href="https://note-taker99.herokuapp.com/"
                 target="_blank"
               >
@@ -176,7 +176,7 @@ export default function Work() {
                 {<IoLogoGithub />}
               </a>
               <a
-                className="link"
+                className="workLink"
                 href="https://github.com/MikiWolfe/Team-Profile-Generator"
                 target="_blank"
               >
@@ -204,7 +204,7 @@ export default function Work() {
                 <IoLogoGithub />
                 </a>
                 <a
-                  className="link"
+                  className="workLink"
                   href="https://github.com/MikiWolfe/Employee-Database"
                   target="_blank"
                 >
