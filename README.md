@@ -47,5 +47,4 @@ Please contact: mkla.w.b@gmail.com with any questions.
 Link to the deployed site: https://mikiwolfe.github.io/React-Portfolio
 Link to the repo: https://github.com/MikiWolfe/react-portfolio
 
-### Image of application
-Link to a screenshot of the application: *Later*
+
